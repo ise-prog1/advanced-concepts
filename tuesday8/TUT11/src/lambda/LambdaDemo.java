@@ -4,6 +4,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.ArrayList;
 
+/**
+ * BONUS - Not relevant until a later date.
+ * 
+ * This class simply demonstrates the usefulness of the lambda expressions
+ * by using the stream API of Java 8.
+ */
 public class LambdaDemo {
 
 	public static void main(String[] args) {
@@ -13,6 +19,7 @@ public class LambdaDemo {
 		list.add("3");
 		list.add(null);
 		
+		// also parallelStream available for easy parallelization.
 		Double average = list.stream()
 		.filter(s -> s != null)
 		.map(s -> Integer.parseInt(s))

@@ -1,5 +1,10 @@
 package threads.task5;
 
+/**
+ * This class counts down from the given number to 1 inclusive.
+ * 
+ * [1,number]
+ */
 public class CountDown extends Thread {
 	private int number; 
 	public CountDown(int number) {

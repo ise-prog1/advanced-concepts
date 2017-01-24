@@ -1,5 +1,8 @@
-package threads;
+package threads.interrupt;
 
+/**
+ * This class demonstrates the ability to interrupt threads.
+ */
 public class InterruptedRunnableDemo {
 	
 	public static void main(String[] args) throws InterruptedException {

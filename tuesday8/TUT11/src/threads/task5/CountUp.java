@@ -1,5 +1,10 @@
 package threads.task5;
 
+/**
+ * This class counts up from 1 to number inclusive.
+ * 
+ * [1,number]
+ */
 public class CountUp extends Thread {
 	private int number;
 	
