@@ -1,7 +1,7 @@
 package threads.simple;
 
 /**
- * This class demonstrates the basic way of creating and starting a thread
+ * This class demonstrates the basic way of creating and starting a thread.
  */
 public class ThreadAndRunnableDemo {
 

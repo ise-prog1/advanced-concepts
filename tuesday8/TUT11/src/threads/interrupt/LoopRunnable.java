@@ -1,5 +1,8 @@
 package threads.interrupt;
 
+/**
+ * This class prints a message every half a second until it is interrupted.
+ */
 public class LoopRunnable implements Runnable {
 
 	@Override
