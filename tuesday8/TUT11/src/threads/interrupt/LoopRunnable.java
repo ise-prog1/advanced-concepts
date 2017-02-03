@@ -13,7 +13,7 @@ public class LoopRunnable implements Runnable {
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
-				// If a Thread gets interrupted, the interrupt flag is cleared 
+				// If a Thread gets interrupted while waiting, the interrupt flag is cleared 
 				// and a InterruptedException is thrown.
 				printAsThread("Thread interrupted!");
 				// Restore the interrupt flag for our loop condition.
