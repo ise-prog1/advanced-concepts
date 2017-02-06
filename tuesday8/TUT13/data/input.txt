@@ -1,0 +1,27 @@
+Kundennummer
+Nachname
+Vorname
+Strasse
+Postleitzahl
+Ort
+
+1234
+Doe
+John
+Sunshine Avenue
+13451
+Hamm
+
+7789
+Bjerg
+Soren
+Midlane
+23512
+Summoners Rift
+
+1349
+Miller
+Joe
+Perleberger Str.
+10551
+Berlin
